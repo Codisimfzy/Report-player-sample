@@ -1,0 +1,179 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+body
+{
+    color:#fff;
+    background-image:url(assets/background/intro-blur.png);
+    background-size: cover;
+    background-attachment: fixed;
+    display:grid;
+    place-items: center;
+    align-content: center;
+    min-height: 50vh;
+
+}
+header
+{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px;
+    z-index: 100000;
+}
+header.sticky
+{
+    padding: 5px 100px;
+    background:#fff;
+
+}
+header .logo
+{
+    position:relative;
+    font-weight:700;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.6s;
+}
+header ul
+{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li
+{
+    position: relative;
+    list-style: none;
+}
+header ul li a
+{
+    position:relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6s;
+}
+.banner
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(assets/background/intro-blur.png);
+    background-attachment:fixed;
+    background-size: cover;
+}
+header.sticky .logo,
+header.sticky ul li a
+{
+    color:#000;
+}
+input
+{
+    background-color:white;
+}
+button
+{
+    background-color: transparent;
+}
+a
+{
+    color:black;
+    font:bold;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  form {
+    width: 300px;
+    padding: 20px;
+    border-radius: 3px;
+    background-color: transparent;
+    font-size: 12px;
+  }
+  form h1 {
+    text-align: center;
+  }
+  form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+  .box {
+    display: flex;
+    flex-direction: column;
+  }
+  .box label {
+    font-size: 20px;
+  }
+  .box input {
+    display: block;
+    padding: 10px;
+    border-radius: 3px;
+    width: 100%;
+    font-size: 12px;
+    border: 0;
+  }
+  .box .error {
+    color: red;
+    font-size: 10px;
+    height: 15px;
+  }
+  .box input:focus {
+    outline: 0;
+  }
+  .box.success input {
+    border: 1px solid green;
+  }
+  .box.error input {
+    border: 1px solid red;
+  }
+  .link {
+    text-align: center;
+    padding: 15px;
+  }
+  p a
+  {
+    font-size: 30px;
+  }
+section
+{
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  background-size: cover;
+  background-attachment: fixed;
+  display:grid;
+  place-items: center;
+  align-content: center;
+  min-height: 100vh;
+}

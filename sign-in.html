@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="loginstyle.css" />
+<title>Log-in Page</title>
+</head>
+  <body>
+    <header>
+      <a href="#" class="logo">MINECRAFTSMP</a>
+      <ul>
+        <li><a href="mainpage.html">Homepage</a></li>
+        <li><a href="sign-in.html">Application Form</a></li>
+        <li><a href="members.html">Members</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </header>
+    <script type="text/javascript">
+      window.addEventListener("scroll", function(){var header = document.querySelector("header");
+      header.classlist.toggle("sticky"), wiindow.scrollY > 0
+      })
+    </script>
+    <div class="container">
+      <form action="" id="form">
+        <div class="box">
+           <h1>Log In</h1>
+           <label for="username">Username:<p></p></label>
+          <input id="username" name="username" autocomplete="off" type="text">
+        </div>
+        <div class="box">
+          <label for="password">Password:<p></p></label>
+          <input id="password" name="password" autocomplete="off" type="password">
+        </div>
+        <button type="submit" id="login">Login</button>
+      
+    <a href="sign-up.html"><p><strong>Don't have an account?</strong></p></a>
+    </form>
+  </div>
+    <script src="sweetalert.js"></script>
+    <script src="login.js"></script>
+  </body>
+</html>
