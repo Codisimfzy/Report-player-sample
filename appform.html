@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="loginstyle.css"/>
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">MINECRAFTSMP</a>
+      <ul>
+        <li><a href="mainpage.html">Homepage</a></li>
+        <li><a href="appform.html">Application Form</a></li>
+        <li><a href="members.html">Members</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+  </header>
+  </body>
+  <body>
+    <div class="container">
+      <form action="localstorage.js" method="post" id="form">
+        <div class="box">
+          <h1>Application Form Membership</h1>
+          <label for="username">Username:<p></p></label>
+          <input id="username"Required name="username" autocomplete="off" type="text">
+          <div class="error"></div>
+        </div>
+            <div class="box">
+            <label for="email">(Required)Email:<p></p></label>
+            <input id="email"Required name="email" autocomplete="off" type="text">
+            <div class="error"></div>
+        <div class="zbox">
+          <label for="Message">Message:<p></p></label>
+        <textarea name="Message" form="userfrm"> </textarea>
+          <div class="error"></div>
+        </div>
+        <button type="submit" id="btn">Submit Request</button>
+      </form>
+      <p>Note: Application may take sometime before Moderations notice.</p>
+    </div>
+  </body>
+</html>

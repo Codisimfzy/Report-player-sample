@@ -12,7 +12,7 @@ login.onclick = (e) => {
     swal("Input field has no value");
   } else {
     if (usernameAddress == getUser && passwordAddress == getPass) {
-      swal(`Login successfull, Welcome ${usernameAddress}`);
+      swal(`Your Account is ${usernameAddress}`);
     } else {
       swal("Something is wrong");
     }
